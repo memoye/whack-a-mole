@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Whack a Mole!</title>
+</head>
+
+<body>
+
+    <div class="info">
+        <h1>Whack-a-mole!</h1>
+
+        <div class="resultsArea">
+            <p class="scoreP">High score: <span class="scores highScore">0</span></p>
+            <p class="scoreP">Current Score: <span class="scores score">0</span></p>
+        </div>
+
+        <div class="inputs">
+            <select name="level" id="level">
+                <option>Select Level</option>
+                <option value="Easy">Easy</option>
+                <option value="Medium">Medium</option>
+                <option value="Hard">Hard</option>
+            </select>
+            <input type="button" class="startBtn" value="start!">
+        </div>
+
+        <p class="timer notif"></p>
+        <p class="message notif"></p>
+    </div>
+
+    <div class="game">
+        <div class="hole hole1">
+            <div class="mole"></div>
+        </div>
+
+        <div class="hole hole2">
+            <div class="mole"></div>
+        </div>
+
+        <div class="hole hole3">
+            <div class="mole"></div>
+        </div>
+
+        <div class="hole hole4">
+            <div class="mole"></div>
+        </div>
+
+        <div class="hole hole5">
+            <div class="mole"></div>
+        </div>
+
+        <div class="hole hole6">
+            <div class="mole"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
